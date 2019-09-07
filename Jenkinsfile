@@ -1,4 +1,6 @@
 pipeline {
+    
+    
     stages {
         stage('Build Assets') { 
             steps {
@@ -8,6 +10,11 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Testing stuff...'
+            }
+        }
+        stage('Testing') {
+            steps {
+                echo 'Testing stuff1...'
             }
         }
     }
