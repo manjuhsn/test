@@ -14,7 +14,7 @@ pipeline {
                 echo 'Testing stuff...'
             }
         }
-        tage('Testing') {
+        stage('Testing') {
             agent any
             steps {
                 echo 'Testing stuff1...'
